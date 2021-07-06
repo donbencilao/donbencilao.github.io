@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instruction</title>
+
+    <!--  Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+
+    <!--  Slick CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+
+    <!--  Fonts CSS  -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--  Custom CSS  -->
+    <link rel="stylesheet" href="css/styles.css">  
+
+</head>
+
+<body>
+
+    <!--   Header Content Start Here   -->
+    <header class="header">
+    	<div class="container">
+    		<div class="header-wrapper">
+    			<div class="logo">
+    				<a href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+    			</div>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="instruction.html" class="active">INSTRUCTIONS + FAQ</a></li>
+					<li><a href="#!" onclick="openPassCode()">RETAILER LOGIN</a></li>
+				</ul>
+    			<div class="flag">
+    				<img src="images/flag-bar.png" class="img-fluid" alt="image">
+    			</div>    			
+    		</div>
+
+            <div class="menu" onclick="openNav()"><img src="images/list.png" class="img-fluid" alt="image"></div>
+
+            <div id="mySidenav" class="sidenav">
+              <a href="index.html"><img src="images/logo.png" class="img-fluid pb-2" alt="image"></a>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html" >HOME</a>
+              <a href="instruction.html" class="active">INSTRUCTIONS + FAQ</a>
+              <a href="#!" onclick="openPassCode()">RETAILER LOGIN</a>
+              <div class="usa-logo">
+                <img src="images/footer-usa.png" class="img-fluid" alt="image">
+              </div>  
+            </div>
+
+    	</div>
+    </header>
+    <!--   Header Content Start Here   -->
+
+    <section class="passcode" id="retailer-box">
+        <div class="container">
+            <div class="passcode-holder">
+                <div class="form-row">
+                    <span>Enter Passcode:</span>
+                    <input type="text" name="" onkeydown="removeWarning()">
+                    <button type="submit" class="btn" onclick="checkPassCode()">GO</button>
+                    <span><a href="mailto:david.maus@outlook.com">Questions? Contact us</a></xspan>
+                </div>
+            </div>
+
+            <div class="alert alert-warning">
+                <strong>Warning!</strong> Entered passcode is incorrect.
+            </div>
+        </div>
+    </section>
+
+    <!--   Banner Content Start Here   -->
+    <section class="banner">
+    	<div class="banner-img">
+    		<img src="images/banner-image.png" class="img-fluid" alt="image">
+    	</div>
+    	<div class="banner-content">
+    		<h1>TAKE YOUR YARD BACK</h1>
+    		<h4>With the Ultimate Mosquito Solution</h4>
+    	</div>
+        <div class="solutionX">
+            <img src="images/solutionX.png" alt="image">
+        </div>
+    </section>
+    <!--   banner Content Start Here   -->
+
+    <!--   Main Content Start Here   -->
+    <main>
+    	<section class="content-hp content-instruction">
+    		<div class="container">
+    			<p>Using <strong>Solution X</strong>™ out of the box (video below):</p>
+
+                <div class="video">
+                    <video controls poster="images/video-poster.png">
+                      <source src="video/SolutionX_6.8.mp4" type="video/mp4">
+                      <source src="video/SolutionX_6.8.ogg" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="best-result">The “<span>ABC</span>” for best results with <strong>Solution X</strong> ™</div>
+                
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="best-result-listing"><span>A)</span> <strong>Season</strong> – Know when mosquito season begins</div>
+                        <div class="best-result-content">
+                            <p>The map below shows the approximate beginning of mosquito season, based on climate data sourced from the United States Department of Agriculture.</p>
+                            <p>Ideal deployment time for Solution X is based on weather, but a good rule of thumb is to deploy them after the “first bite” of the mosquito season. If you get a late start, after mosquitoes have established, you should double the number of Solution X tubes</p>
+                            <p>Deploy one box per acre at the start of mosquito season, or two boxes per acre if first deployed during the season.</p>
+                            <p>There are two Solution X tubes in each box.</p>                   
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/map-img.png" class="img-fluid" alt="image">
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="best-result-listing"><span>B)</span> <strong>Placement</strong> – Deciding where to hang the tubes</div>
+                        <div class="best-result-content">
+                            <p>Hang your Solution X tubes along the perimeter of the area to be protected, no more than 200 feet apart. If the property is smaller than one square acre, and there are no major mosquito attractors such as a wooded area or a water feature, hang on opposite corners of the property.</p>
+                            <p>The ideal place for hanging is in a shady spot on a branch of a tree or large bush, about 5 feet off the ground, and about 6 inches away from the trunk.</p>
+                            <p>Mosquitos will be attracted to each Solution X tube, so be sure to hang away from areas where people gather.</p>
+                            <p>If there is an area on your property with a higher concentration of mosquitos, such as a water feature or heavy vegetation, you should hang at least one Solution X tube near or within that area, away from people.</p>
+                            <p>With proper placement, the majority of mosquitos in the area will be cleared away, within approximately 2 weeks.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/mosquito-season.png" class="img-fluid " alt="image">
+                    </div>
+                </div>               
+                
+                <div class="best-result-listing mt-5"><span>C)</span> <strong>Refilling</strong> – Knowing when to refill and replace</div>
+                <div class="best-result-content">
+                    <p class="mt-5"><em><strong>When to Refill:</strong></em></p>
+                    <p>Water will gradually evaporate from the tube, so always ensure that the water level remains above the WATER LOW line for optimal performance.</p>
+                    <p>Whenever the water level gets near or below the low line, refill the tube back to the WATER FULL line.</p>
+                    <p>Warm water is only needed when the tube is first filled. When refilling, ambient temperature water is fine.</p>
+                    <p class="mt-5"><em><strong>When to Replace:</strong></em></p>
+                    <p>Replace your Solution X tubes every 60 days.</p>
+                    <p>If a tube falls or gets knocked down and the contents spill out, it will need to be replaced.</p>
+                    <p>If tube gets flooded due to heavy rain or for any other reason, you will need to dispose of the flooded tube and replace it with a new one.</p>
+                </div>
+
+                <div class="faq">
+                    <h2>Frequently Asked Questions:</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="faq-holder">
+                                <div class="question"><strong>Q: How long does it take to work?</strong></div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> Solution X will begin working as soon as you fill it with warm water and hang it properly. From there, it takes approximately 2 weeks for mosquitos to clear away.</p>
+                                </div>
+                            </div>
+                            <div class="faq-holder">
+                                <div class="question"><strong>Q: What if i’m getting a late start on the season, and mosquitos are already active?</strong></div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> Ideally, Solution X will work best if deployed after you spot the first mosquito of the season, in order to shut down the reproduction cycle. However, if mosquitos are already established, double it up (put out two boxes per acre – 4 tubes) in order to catch up. Once mosquitos are under control, use two tubes per acre for the next period (up to 60 days). It never hurts to use extra tubes.</p>
+                                </div>
+                            </div> 
+                            <div class="faq-holder">
+                                <div class="question"><strong>Q: What if I forgot to use warm water, and accidentally filled it with cool water?</strong></div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> It will still work, but not optimally. Solution X needs to be “activated” with that first filling of warm water (80 degrees or more).</p>
+                                </div>
+                            </div>
+                            <div class="faq-holder">
+                            <div class="question"><strong>Q: What if I hung my tubes in the sun? </strong></div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> We recommend that your Solution X tubes not be hung in direct sun, but rather in a shady place.  If not placed as suggested – in the shade, on the limb of a tree near the tree trunk – then the risk of rapid evaporation and/or overflow is high, either of which will render them ineffective.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="faq-holder">
+                                <div class="question"><strong>Q: I’m still seeing mosquitos! Did I do something wrong?</strong></div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> Solution X clears away the majority of the mosquito population. A majority is not 100%, so it’s not unusual to spot a mosquito once in awhile. However, if it seems that there are still too many mosquitos, ensure that you have properly set up your Solution X tubes by considering the following questions:</p>
+                                    <p>Did you use warm water? Solution X will not work optimally until the water temperature reaches 80 degrees. Once the tubes reach 80 degrees, they will work optimally.</p>
+                                    <p>Are your tubes placed away from people? Solution X tubes will attract mosquitos (before clearing them out). If you have placed your tubes near where people gather, move them to a more ideal location in your yard, further away from where people will be.</p>
+                                    <p>Are your tubes in the shade? Placing them in direct sunlight can cause faster evaporation, thereby reducing effectiveness.</p>
+                                    <p>Did you use enough? One box covers up to one acre for up to 60 days. If you have more than one acre, you need additional boxes — 1 per acre. If you deployed after the mosquito population was established, then you need to double up to catch up (use 2 boxes per acre), and then return to the recommended number of boxes for your property size in the second deployment period.</p>
+                                    <p>Did you hang all of the tubes? Each box comes with two tubes, and all tubes should be deployed in your yard.</p>
+                                    <p>How long have your tubes been out? Solution X tubes last up to 60 days, so they may need to be replaced with a second deployment if they have been out for about that length of time.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="checklist-banner">
+                    <img src="images/quick-checklist.png" class="img-fluid" alt="image">
+                </div> 
+
+
+                <div class="testimonials">
+                    <div class="title-bar">TESTIMONIALS</div>
+                    <img src="images/border.png" class="img-fluid border-img" align="image">
+                    <div class="multiple-items">
+                        <div class="testimonials-wrapper">
+                            <div class="row">
+                                <div class="col-3 col-md-3">
+                                    <div class="testimonials-img">
+                                        <img src="images/testimonial-img1.png" class="img-fluid" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="testimonials-content">
+                                        <h2>Yes it actually works! We no longer need to avoid our deck area during mosquito season.</h2>
+                                        <p>Sandra Dobrolowski – Lakesite, Tennessee</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials-wrapper">
+                            <div class="row">
+                                <div class="col-3 col-md-3">
+                                    <div class="testimonials-img">
+                                        <img src="images/testimonial-img2.png" class="img-fluid" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="testimonials-content">
+                                        <h2>Skeeter bites used to be a guaranteed thing in our backyard during summer. Now they’re a rare thing.</h2>
+                                        <p>Carrie English – Ventura California</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonials-wrapper">
+                            <div class="row">
+                                <div class="col-3 col-md-3">
+                                    <div class="testimonials-img">
+                                        <img src="images/testimonial-img3.png" class="img-fluid" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="testimonials-content">
+                                        <h2>Noticed a big difference within the first week, and it’s nice not to worry about using toxic chemicals.</h2>
+                                        <p>Jim McInerney – Athens Georgia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonials-wrapper">
+                            <div class="row">
+                                <div class="col-3 col-md-3">
+                                    <div class="testimonials-img">
+                                        <img src="images/testimonial-img4.png" class="img-fluid" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="testimonials-content">
+                                        <h2>It just worked, what more can I say? There is still the occassional mosquito, but it’s a world of difference.</h2>
+                                        <p>Anne Radcliffe – Gainesville Florida</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonials-wrapper">
+                            <div class="row">
+                                <div class="col-3 col-md-3">
+                                    <div class="testimonials-img">
+                                        <img src="images/testimonial-img5.png" class="img-fluid" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="testimonials-content">
+                                        <h2>With four grandkids and four dogs, spraying bug poison isn’t an option. This is safe, and it works.</h2>
+                                        <p>Ruth Reis – Port Arthur Texas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonials-wrapper">
+                            <div class="row">
+                                <div class="col-3 col-md-3">
+                                    <div class="testimonials-img">
+                                        <img src="images/testimonial-img6.png" class="img-fluid" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <div class="testimonials-content">
+                                        <h2>Mosquitoes around our lake cabin had always kept us from relaxing. This summer is much better.</h2>
+                                        <p>Stephen Raichlin - BBQ Master</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+    		</div>
+    	</section>
+    </main>
+    <!--   Main Content End Here   -->
+
+    <!--   Footer Content End Here   -->
+    <!--   Footer Content End Here   -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="trademark-logo">
+                        <img src="images/x-mark.png" class="img-fluid" alt="icon">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="instruction.html">Instructions / FAQ</a></li>
+                            <li><a href="#!" onclick="openPassCode()">For Retailers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-logo">
+                        <img src="images/footer-logo.png" class="img-fluid" alt="image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="usa-manufacture">
+                        <img src="images/footer-usa.png" class="img-fluid" alt="image">
+                        <p>A USA made product by <a href="#!">EnviroChem Inc</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--   Footer Content End Here   -->
+
+  	<!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        var header = $('.header');
+
+        $(window).scroll(function(e){
+            if(header.offset().top !== 0){
+                if(!header.hasClass('shadow')){
+                    header.addClass('shadow');
+                }
+            }else{
+                header.removeClass('shadow');
+            }
+        }); 
+    </script>
+
+</body>
+</html>
